@@ -45,6 +45,8 @@ public class PlayerConditions : MonoBehaviour
         }
     }
 
+    float damage = 0;
+
     float _food;
     float food
     {
@@ -121,6 +123,8 @@ public class PlayerConditions : MonoBehaviour
 
         if (isDrinking) water += drinkSpeed * Time.deltaTime;
         else if (water > 0) water -= dehydrationSpeed * Time.deltaTime;
+
+        if (damage > 0 && health > 0) health -= damage;
     }
 
 
@@ -135,8 +139,22 @@ public class PlayerConditions : MonoBehaviour
         isDrinking = true;
     }
 
+
     public void StopDrink()
     {
         isDrinking = false;
+    }
+
+
+    public void AddDamage(float amount)
+    {
+        damage += amount;
+    }
+
+
+    public void RemoveDamage(float amount)
+    {
+        damage -= amount;
+        if (damage < 0) damage = 0;
     }
 }
