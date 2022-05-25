@@ -124,7 +124,7 @@ public class PlayerConditions : MonoBehaviour
         if (isDrinking) water += drinkSpeed * Time.deltaTime;
         else if (water > 0) water -= dehydrationSpeed * Time.deltaTime;
 
-        if (damage > 0 && health > 0) health -= damage;
+        if (damage > 0 && health > 0) health -= damage * 100 * Time.deltaTime;
     }
 
 
