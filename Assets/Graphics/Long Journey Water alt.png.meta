@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Long Journey Water alt_8: 2844629826755147449
+      Long Journey Water alt_4: 8954419570579607891
+      Long Journey Water alt_1: -7616826127444759175
+      Long Journey Water alt_7: 8950704396026255661
+      Long Journey Water alt_5: -2028607457217564574
+      Long Journey Water alt_2: 746662672837012221
+      Long Journey Water alt_0: 5753462474525178916
+      Long Journey Water alt_3: -1890911383293075858
+      Long Journey Water alt_6: -6294508878492001362
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

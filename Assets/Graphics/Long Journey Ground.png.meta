@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Long Journey Ground_7: 1368517041361647580
+      Long Journey Ground_8: 2339538466314159645
+      Long Journey Ground_0: -3919653229704415530
+      Long Journey Ground_4: 597717246432082432
+      Long Journey Ground_1: 3380997372488251495
+      Long Journey Ground_3: 8195930365044538622
+      Long Journey Ground_5: 3286680031835039622
+      Long Journey Ground_2: 5221191026373375461
+      Long Journey Ground_6: 1590018601647956909
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

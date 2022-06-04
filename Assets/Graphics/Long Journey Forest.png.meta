@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Long Journey Forest_2: 4566184605676825308
+      Long Journey Forest_0: 3391275446661897743
+      Long Journey Forest_5: 2731312825766244754
+      Long Journey Forest_7: -7630830678541392696
+      Long Journey Forest_4: -1756549747476669624
+      Long Journey Forest_8: 4523213215909582401
+      Long Journey Forest_6: 195838480474084899
+      Long Journey Forest_1: -4753762582829225113
+      Long Journey Forest_3: -1734704047528493325
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
